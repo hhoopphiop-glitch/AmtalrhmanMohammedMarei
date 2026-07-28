@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<title>استمارة شراء سيارة BMW</title>
+</head>
+
+<body bgcolor="white">
+
+<center>
+
+<h1>استمارة شراء سيارة BMW</h1>
+
+<p>
+يرجى تعبئة البيانات التالية لإرسال طلب شراء سيارة BMW.
+</p>
+
+<hr>
+
+<form method="post">
+
+الاسم الكامل:
+<input type="text" name="name">
+<br><br>
+
+رقم الهاتف:
+<input type="text" name="phone">
+<br><br>
+
+البريد الإلكتروني:
+<input type="text" name="email">
+<br><br>
+
+رقم الهوية:
+<input type="text" name="id">
+<br><br>
+
+كلمة المرور:
+<input type="password" name="password">
+<br><br>
+
+<input type="hidden" name="code" value="BMW2025">
+
+الجنس:
+<input type="radio" name="gender" value="male" checked> ذكر
+<input type="radio" name="gender" value="female"> أنثى
+<br><br>
+
+اختر موديل السيارة:
+
+<select name="car">
+
+<option>BMW M3</option>
+<option>BMW M5</option>
+<option>BMW X5</option>
+
+</select>
+
+<br><br>
+
+اختر اللون:
+
+<select name="color">
+
+<option>أسود</option>
+<option>أبيض</option>
+<option>أزرق</option>
+<option>أحمر</option>
+
+</select>
+
+<br><br>
+
+الخدمات المطلوبة:
+<br>
+
+<input type="checkbox" name="service1"> ضمان إضافي
+<br>
+
+<input type="checkbox" name="service2"> تأمين شامل
+<br>
+
+<input type="checkbox" name="service3"> صيانة مجانية
+<br><br>
+
+إرفاق صورة الهوية:
+<input type="file" name="idfile">
+
+<br><br>
+
+<input type="submit" value="إرسال طلب الشراء">
+
+<input type="reset" value="إعادة تعيين">
+
+</form>
+
+<hr>
+
+<a href="index.html">
+العودة إلى الصفحة الرئيسية
+</a>
+
+</center>
+
+</body>
+
+</html>
